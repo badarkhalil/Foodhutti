@@ -1,0 +1,96 @@
+﻿
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 9px;
+  }
+
+  .navbar a:hover  {
+    background-color: #568f06;
+    color:white !important;
+    border-radius: 9px;
+    transition: 0.5s ease;
+
+  }
+
+  #logoa:hover{
+    background-color: #f8f9fa;
+  }
+
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+/*search box css start here*/
+.search-sec{
+    padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+@media (min-width: 992px){
+    .search-sec{
+        position: relative;
+        background: #f8f9fa;
+    }
+}
+
+@media (max-width: 992px){
+    .search-sec{
+        background: #f8f9fa;
+    }
+}
+@media (max-width: 645px){
+    #adimg1{
+        width:100% !important;
+    }
+}
+
+.search-slt {
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e2dddd;
+    height: calc(3rem + 2px) !important;
+    border-radius: 0;
+}
+
+@media (min-width: 576px){
+.modal-dialogmain {
+    max-width: 100%;
+    margin: 1.75rem auto;
+    height: 100%;
+}
+}
